@@ -8,7 +8,7 @@ h1{
 .bdr{
     color:orange;
 }
-section{
+.flexible{
     display: flex;
 }
 .wid{
@@ -16,7 +16,7 @@ section{
     padding-left: 5%;
 }
 .wid img{
-    width: 55%;
+    width: 70%;
 }
 .link{
     background-color: orange;
@@ -27,4 +27,24 @@ section{
 .top{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.ton{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+background-position: right;
+}
+.diff{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 40px blue;
+    border: 7px solid red;
+}
+.excpt{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}.foot{
+    text-align: center;
 }
